@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  padding: 15px 55px;
+}
+.jumbotron {
+  position: relative;
+}
+.text-absolute {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.breadcrumb {
+  list-style: none;
+}
+.breadcrumb li {
+  margin: 0 5px;
+  padding: 0;
+  font-size: 16px;
+}
+.mt-5 {
+  margin-top: 8.2em !important;
+  font-size: 18px;
+}
+.mt-1 {
+  margin-top: 1em !important;
+}
+.mt-2 {
+  margin-top: 2em !important;
+}
+.container-custom {
+  margin: 15px 50px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.foto-profile {
+  width: 180px;
+  height: 180px;
+  border-radius: 50em;
+  object-fit: cover;
+}
+.d-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-orange {
+  background: tomato;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+  border: 1px solid tomato;
+}
+.btn-orange1 {
+  background: tomato;
+  padding: 7px 30px;
+  border-radius: 30px;
+  color: white;
+  border: 1px solid tomato;
+}
+.float-right {
+  text-align: right;
+}
+.card {
+  background: rgb(123, 213, 255);
+  width: 80%;
+  border-radius: 0 0 8px 8px;
+}
+.card .card-body {
+  padding: 20px 25px;
+}
+.form-group {
+  margin: 20px 0;
+}
+.form {
+  border: 1px solid #111;
+  border-radius: 12px;
+  padding: 6px 6px;
+  width: 50%;
+}
+.btn-card {
+  padding: 3px 18px;
+  font-weight: bold;
+  border: 1px solid white;
+  background: rgb(123, 213, 255);
+}
+.mb {
+  margin-bottom: 6px;
+}
+.footer-nav {
+  background: #a1a1a1;
+  border-top: 3px solid #666;
+}
+.container {
+  margin: 0 50px;
+  padding: 20px 0;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 10px;
+}
+.vertical-list {
+  list-style: none;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+.vertical-list li {
+  display: block;
+  margin: 6px 0;
+  padding: 0;
+}
+.vertical-list li:hover {
+  color: #222;
+}
+.text-list {
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 5px;
+  color: #222;
+}
+.copy {
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: 500;
+}

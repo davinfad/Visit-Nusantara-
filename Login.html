@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="asset/css/style2.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Login - Visit Nusantara</title>
+
+</head>
+<body>
+	<div class="container">
+		<header>Selamat Datang Kembali</header>
+		<form>
+			<div class="input-field">
+				<input type="text" placeholder="Username or Phone Number" required>
+			</div>
+
+			<div class="input-field">
+				<input class="pswrd" type="password" placeholder="Password"  required> 
+				<span class="show">Show</span>
+			</div>
+			<div class="button">
+				<div class="inner"></div>
+			<button>LOGIN</button>
+			</div>
+
+		</form>
+		<div class="auth">Or log in via</div>
+		<div class="links">
+			<div class="facebook">
+				<i class="fab fa-facebook-square">
+					<span>Facebook</span>
+			    </i>
+			</div>
+
+			<div class="google">
+				<i class="fab fa-google-plus-square">
+					<span>Google</span>
+			    </i>
+			</div>
+		</div>
+		<div class="signup">
+			<br><br>
+			Don't have an account? <a href="Regristrasi.html">Register here</a>
+		</div>
+	</div>
+<script >
+	var input=document.querySelector('.pswrd');
+	var show=document.querySelector('.show');
+	show.addEventListener('click',active);
+	function active(){
+		if (input.type==="password") {
+			input.type="text";
+			show.style.color="#1da1f2";
+			show.textContent="Hide";
+		}
+		else{
+			input.type="password"
+			show.style.color="#111";
+			show.textContent="Show";
+		}
+	}
+</script>
+
+</body>
+</html>
